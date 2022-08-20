@@ -1,0 +1,12 @@
+Symlinking /home/drone/Documents/catkin_drone/devel/./local_setup.sh
+Symlinking /home/drone/Documents/catkin_drone/devel/./setup.bash
+Symlinking /home/drone/Documents/catkin_drone/devel/./setup.sh
+Symlinking /home/drone/Documents/catkin_drone/devel/./cmake.lock
+Symlinking /home/drone/Documents/catkin_drone/devel/./env.sh
+Symlinking /home/drone/Documents/catkin_drone/devel/./local_setup.bash
+Symlinking /home/drone/Documents/catkin_drone/devel/./_setup_util.py
+Symlinking /home/drone/Documents/catkin_drone/devel/./local_setup.zsh
+Symlinking /home/drone/Documents/catkin_drone/devel/./setup.zsh
+Symlinking /home/drone/Documents/catkin_drone/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/drone/Documents/catkin_drone/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/drone/Documents/catkin_drone/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

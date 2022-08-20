@@ -1,0 +1,10 @@
+prefix=/home/drone/Documents/catkin_drone/devel
+libdir=/home/drone/Documents/catkin_drone/devel/lib
+includedir=/home/drone/Documents/catkin_drone/devel/include
+
+Name: octomap
+Description: octomap
+Requires: 
+Version: 1.9.7
+Libs: -L${libdir}  -loctomap -loctomath
+Cflags: -I${includedir} 

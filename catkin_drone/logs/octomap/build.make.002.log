@@ -1,0 +1,54 @@
+[  1%] [32m[1mLinking CXX static library /home/drone/Documents/catkin_drone/src/octomap/lib/liboctomath.a[0m
+[  2%] [32m[1mLinking CXX shared library /home/drone/Documents/catkin_drone/src/octomap/lib/liboctomath.so[0m
+[  6%] Built target octomath-static
+[  8%] [32m[1mLinking CXX static library /home/drone/Documents/catkin_drone/src/octomap/lib/liboctomap.a[0m
+[ 12%] Built target octomath
+[ 24%] Built target octomap-static
+[ 25%] [32m[1mLinking CXX shared library /home/drone/Documents/catkin_drone/src/octomap/lib/liboctomap.so[0m
+[ 37%] Built target octomap
+[ 39%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/log2graph[0m
+[ 40%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/bt2vrml[0m
+[ 41%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/edit_octree[0m
+[ 43%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/binvox2bt[0m
+[ 44%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/convert_octree[0m
+[ 45%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/normals_example[0m
+[ 47%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/eval_octree_accuracy[0m
+[ 48%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/compare_octrees[0m
+[ 50%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/intersection_example[0m
+[ 51%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/octree2pointcloud[0m
+[ 52%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/graph2tree[0m
+[ 55%] Built target log2graph
+[ 55%] Built target edit_octree
+[ 56%] Built target bt2vrml
+[ 58%] Built target convert_octree
+[ 59%] Built target binvox2bt
+[ 60%] Built target normals_example
+[ 62%] Built target eval_octree_accuracy
+[ 63%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/simple_example[0m
+[ 64%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_scans[0m
+[ 66%] Built target compare_octrees
+[ 67%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_raycasting[0m
+[ 68%] Built target intersection_example
+[ 70%] Built target octree2pointcloud
+[ 71%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_changedkeys[0m
+[ 72%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_iterators[0m
+[ 74%] Built target graph2tree
+[ 75%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_color_tree[0m
+[ 77%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/color_tree_histogram[0m
+[ 78%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/unit_tests[0m
+[ 79%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_mapcollection[0m
+[ 81%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_io[0m
+[ 82%] Built target test_scans
+[ 83%] Built target simple_example
+[ 85%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_pruning[0m
+[ 86%] Built target test_raycasting
+[ 87%] Built target test_changedkeys
+[ 89%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/src/octomap/bin/test_bbx[0m
+[ 90%] Built target test_iterators
+[ 91%] Built target test_color_tree
+[ 93%] Built target color_tree_histogram
+[ 94%] Built target unit_tests
+[ 95%] Built target test_mapcollection
+[ 97%] Built target test_io
+[ 98%] Built target test_pruning
+[100%] Built target test_bbx

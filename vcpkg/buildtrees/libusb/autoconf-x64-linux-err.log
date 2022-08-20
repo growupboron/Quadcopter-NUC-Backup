@@ -1,0 +1,17 @@
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+aclocal: warning: couldn't open directory 'm4': No such file or directory
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --copy --force
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: running: /usr/bin/autoheader --force
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:23: installing './compile'
+configure.ac:27: installing './config.guess'
+configure.ac:27: installing './config.sub'
+configure.ac:26: installing './install-sh'
+configure.ac:26: installing './missing'
+Makefile.am: installing './INSTALL'
+examples/Makefile.am: installing './depcomp'
+autoreconf: Leaving directory `.'

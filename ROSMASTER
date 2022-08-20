@@ -1,0 +1,9 @@
+FOR NUC 
+export ROS_MASTER_URI=http://10.42.0.1.11311
+export ROS_IP=10.42.0.1
+
+FOR CLIENT
+export ROS_MASTER_URI=http://10.42.0.1.11311
+export ROS_IP=10.42.0.xx (check ifconfig)
+
+

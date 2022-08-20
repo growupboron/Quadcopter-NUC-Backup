@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/drone/Documents/catkin_drone/src/dynamicEDT3D/lib/libdynamicedt3d.a  CMakeFiles/dynamicedt3d-static.dir/dynamicEDT3D.cpp.o
+/usr/bin/ranlib /home/drone/Documents/catkin_drone/src/dynamicEDT3D/lib/libdynamicedt3d.a

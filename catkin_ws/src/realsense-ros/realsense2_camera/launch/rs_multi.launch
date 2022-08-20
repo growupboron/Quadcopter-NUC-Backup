@@ -1,0 +1,77 @@
+<launch>
+  <!-- <arg name="serial_no_camera1"    			default="047422061534"/> 	-->		<!-- Note: D415 --> 
+  <arg name="serial_no_camera1"         default="115422250059"/>      <!-- Note: D455 -->
+  
+  <arg name="serial_no_camera2"    			default="126622110819"/> 			<!-- Note: T265 -->
+  
+  <arg name="camera1"              			default="camera"/>
+  <arg name="camera2"              			default="camera_t265"/>
+  <arg name="tf_prefix_camera1"         default="$(arg camera1)"/>
+  <arg name="tf_prefix_camera2"         default="$(arg camera2)"/>
+  <arg name="initial_reset"             default="false"/>
+
+  <group ns="$(arg camera1)">
+   <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
+      <arg name="serial_no"         value="115422250059"/>
+      <arg name="json_file_path"    value=""/>
+      <arg name="depth_width"       value="640"/>
+      <arg name="depth_height"      value="480"/>
+      <arg name="depth_fps"         value="30"/>
+      <arg name="color_width"       value="640"/>
+      <arg name="color_height"      value="480"/>
+      <arg name="color_fps"         value="30"/>
+      <arg name="enable_depth"      value="true"/>
+      <arg name="enable_color"      value="true"/>
+      <arg name="enable_infra1"     value="false"/>
+      <arg name="enable_infra2"     value="false"/>
+      <arg name="enable_fisheye"    value="false"/>
+      <arg name="enable_gyro"       value="false"/>
+      <arg name="enable_accel"      value="false"/>
+      <arg name="enable_pointcloud" value="true"/>
+      <arg name="enable_sync"       value="true"/>
+      <arg name="tf_prefix"         value="$(arg tf_prefix_camera1)"/>
+    </include>
+  </group>
+
+  <group ns="$(arg camera2)">
+    <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
+      <arg name="serial_no"           default="126622110819"/>
+  <!-- Make sure to add your device serial no and correct device type -->
+  <!-- To check serial no run serial command -  run demo_pointcloud and stop then scroll and check -->
+  <arg name="usb_port_id"         default=""/>
+  <arg name="device_type"         default="T265"/>
+  <arg name="json_file_path"      default=""/>
+  <!-- <arg name="camera2"              default="camera_t265"/> -->
+  <arg name="tf_prefix"           default="$(arg tf_prefix_camera2)"/>
+
+  <arg name="fisheye_width"       default="-1"/> 
+  <arg name="fisheye_height"      default="-1"/>
+  <arg name="enable_fisheye1"     default="true"/>
+  <arg name="enable_fisheye2"     default="true"/>
+
+  <arg name="fisheye_fps"         default="-1"/>
+
+  <arg name="gyro_fps"            default="-1"/>
+  <arg name="accel_fps"           default="-1"/>
+  <arg name="enable_gyro"         default="true"/>
+  <arg name="enable_accel"        default="true"/>
+  <arg name="enable_pose"         default="true"/>
+
+  <arg name="enable_sync"           default="false"/>
+
+  <arg name="linear_accel_cov"      default="0.01"/>
+  <arg name="initial_reset"         default="false"/>
+  <arg name="unite_imu_method"      default="linear_interpolation"/>
+
+  <arg name="publish_odom_tf"     default="true"/>
+    </include>
+  </group>
+
+  <!-- group ns="$(arg camera3)" if="$(eval serial_no_camera3 != '')">
+    <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
+      <arg name="serial_no"             value="$(arg serial_no_camera3)"/>
+      <arg name="tf_prefix"		          value="$(arg tf_prefix_camera3)"/>
+      <arg name="initial_reset"         value="$(arg initial_reset)"/>
+    </include>
+  </group> -->
+</launch>

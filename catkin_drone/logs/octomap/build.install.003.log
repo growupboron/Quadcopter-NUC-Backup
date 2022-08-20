@@ -1,0 +1,84 @@
+[  5%] Built target octomath-static
+[ 10%] Built target octomath
+[ 24%] Built target octomap
+[ 27%] Built target log2graph
+[ 29%] Built target bt2vrml
+[ 32%] Built target edit_octree
+[ 35%] Built target binvox2bt
+[ 48%] Built target octomap-static
+[ 51%] Built target convert_octree
+[ 54%] Built target normals_example
+[ 56%] Built target eval_octree_accuracy
+[ 59%] Built target compare_octrees
+[ 62%] Built target intersection_example
+[ 64%] Built target octree2pointcloud
+[ 67%] Built target graph2tree
+[ 70%] Built target simple_example
+[ 72%] Built target test_scans
+[ 75%] Built target test_raycasting
+[ 78%] Built target test_changedkeys
+[ 81%] Built target test_iterators
+[ 83%] Built target test_color_tree
+[ 86%] Built target color_tree_histogram
+[ 89%] Built target unit_tests
+[ 91%] Built target test_mapcollection
+[ 94%] Built target test_io
+[ 97%] Built target test_pruning
+[100%] Built target test_bbx
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/AbstractOcTree.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/AbstractOccupancyOcTree.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/ColorOcTree.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/CountingOcTree.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/MCTables.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/MapCollection.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/MapNode.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTree.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeBase.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeBaseImpl.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeDataNode.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeKey.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeNode.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeStamped.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OccupancyOcTreeBase.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/Pointcloud.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/ScanGraph.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap_deprecated.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap_timing.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap_types.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap_utils.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/MapCollection.hxx
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/MapNode.hxx
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeBaseImpl.hxx
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeDataNode.hxx
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeIterator.hxx
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/OccupancyOcTreeBase.hxx
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/math/Pose6D.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/math/Quaternion.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/math/Utils.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/include/octomap/math/Vector3.h
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/share/octomap/package.xml
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/share/ament_index/resource_index/packages/octomap
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/share/octomap/octomap-config.cmake
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/share/octomap/octomap-config-version.cmake
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/pkgconfig/octomap.pc
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/liboctomath.so.1.9.7
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/liboctomath.so.1.9
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/liboctomath.so
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/liboctomath.a
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/liboctomap.so.1.9.7
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/liboctomap.so.1.9
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/liboctomap.so
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/lib/liboctomap.a
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/share/octomap/octomap-targets.cmake
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/share/octomap/octomap-targets-release.cmake
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/bin/graph2tree
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/bin/log2graph
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/bin/binvox2bt
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/bin/bt2vrml
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/bin/edit_octree
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/bin/convert_octree
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/bin/eval_octree_accuracy
+-- Up-to-date: /home/drone/Documents/catkin_drone/devel/bin/compare_octrees

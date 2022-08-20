@@ -1,0 +1,7 @@
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/pkgconfig/ewok_optimization.pc
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_optimization/spline_optimization_example2
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_optimization/polynomial_optimization_example
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_optimization/spline_optimization_example
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_optimization/spline_optimization_example3
+Symlinking /home/drone/Documents/ewok_ws/devel/share/ewok_optimization/cmake/ewok_optimizationConfig-version.cmake
+Symlinking /home/drone/Documents/ewok_ws/devel/share/ewok_optimization/cmake/ewok_optimizationConfig.cmake

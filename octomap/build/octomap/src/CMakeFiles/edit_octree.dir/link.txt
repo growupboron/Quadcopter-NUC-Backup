@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Werror -Wextra -Wpedantic -O3 -funroll-loops -DNDEBUG  -rdynamic CMakeFiles/edit_octree.dir/edit_octree.cpp.o  -o ../../../bin/edit_octree  -L/home/drone/Documents/octomap/lib -Wl,-rpath,/home/drone/Documents/octomap/lib: ../../../lib/liboctomap.so.1.9.7 ../../../lib/liboctomath.so.1.9.7 

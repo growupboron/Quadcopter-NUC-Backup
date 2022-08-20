@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target pubCamPose[0m
+[35m[1mScanning dependencies of target Controller[0m
+[35m[1mScanning dependencies of target Planner[0m
+[35m[1mScanning dependencies of target noYawPlanner[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/pubCamPose.dir/src/pubCamPose.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/Controller.dir/src/Controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/noYawPlanner.dir/src/kinodynamic_astar.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Planner.dir/src/kinodynamic_astar.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/Planner.dir/src/Planner.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable /home/drone/Documents/fastplanner_ws/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/pubCamPose[0m
+[ 80%] [32m[1mLinking CXX executable /home/drone/Documents/fastplanner_ws/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/Controller[0m
+[ 80%] Built target pubCamPose
+[ 80%] Built target Controller
+[ 90%] [32m[1mLinking CXX executable /home/drone/Documents/fastplanner_ws/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/Planner[0m
+[100%] [32m[1mLinking CXX executable /home/drone/Documents/fastplanner_ws/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/noYawPlanner[0m
+[100%] Built target Planner
+[100%] Built target noYawPlanner

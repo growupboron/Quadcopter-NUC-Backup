@@ -1,0 +1,1 @@
+configure: error: udev support requested but libudev header not installed

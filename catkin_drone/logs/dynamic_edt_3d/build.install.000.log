@@ -1,0 +1,25 @@
+[ 20%] Built target dynamicedt3d-static
+[ 40%] Built target dynamicedt3d
+[ 60%] Built target exampleEDTOctomap
+[ 80%] Built target exampleEDTOctomapStamped
+[100%] Built target exampleEDT3D
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/dynamicEDT3D/bucketedqueue.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/dynamicEDT3D/dynamicEDT3D.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/dynamicEDT3D/dynamicEDTOctomap.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/dynamicEDT3D/point.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/dynamicEDT3D/bucketedqueue.hxx
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/dynamicEDT3D/dynamicEDTOctomap.hxx
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/dynamic_edt_3d/package.xml
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/ament_index/resource_index/packages/dynamicEDT3D
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/dynamicEDT3D/dynamicEDT3DConfig.cmake
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/dynamicEDT3D/dynamicEDT3DConfig-version.cmake
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/pkgconfig/dynamicEDT3D.pc
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/libdynamicedt3d.so.1.9.7
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/libdynamicedt3d.so.1.9
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/libdynamicedt3d.so
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/lib/libdynamicedt3d.so.1.9.7" to "/home/drone/Documents/catkin_drone/devel/lib:/opt/ros/melodic/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/libdynamicedt3d.a
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/dynamicEDT3D/dynamicEDT3DTargets.cmake
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/dynamicEDT3D/dynamicEDT3DTargets-release.cmake

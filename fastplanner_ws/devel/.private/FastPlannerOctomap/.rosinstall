@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/drone/Documents/fastplanner_ws/devel/.private/FastPlannerOctomap/setup.sh

@@ -1,0 +1,10 @@
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/pkgconfig/ewok_simulation.pc
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_simulation/bspline_controller_rishabh
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_simulation/pubCamPose
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_simulation/trajectory_replanning_example
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_simulation/pcNoise
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_simulation/bspline_lee_position_controller_node
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_simulation/trajectory_replanning_rishabh
+Symlinking /home/drone/Documents/ewok_ws/devel/lib/ewok_simulation/trajectory_replanning_pointcloud
+Symlinking /home/drone/Documents/ewok_ws/devel/share/ewok_simulation/cmake/ewok_simulationConfig.cmake
+Symlinking /home/drone/Documents/ewok_ws/devel/share/ewok_simulation/cmake/ewok_simulationConfig-version.cmake

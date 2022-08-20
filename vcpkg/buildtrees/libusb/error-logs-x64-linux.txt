@@ -1,0 +1,2 @@
+/home/drone/Documents/vcpkg/buildtrees/libusb/config-x64-linux-dbg-out.log
+/home/drone/Documents/vcpkg/buildtrees/libusb/config-x64-linux-dbg-err.log

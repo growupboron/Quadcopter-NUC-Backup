@@ -1,0 +1,7 @@
+Symlinking /home/drone/Documents/fastplanner_ws/devel/lib/pkgconfig/FastPlannerOctomap.pc
+Symlinking /home/drone/Documents/fastplanner_ws/devel/lib/FastPlannerOctomap/Controller
+Symlinking /home/drone/Documents/fastplanner_ws/devel/lib/FastPlannerOctomap/noYawPlanner
+Symlinking /home/drone/Documents/fastplanner_ws/devel/lib/FastPlannerOctomap/Planner
+Symlinking /home/drone/Documents/fastplanner_ws/devel/lib/FastPlannerOctomap/pubCamPose
+Symlinking /home/drone/Documents/fastplanner_ws/devel/share/FastPlannerOctomap/cmake/FastPlannerOctomapConfig-version.cmake
+Symlinking /home/drone/Documents/fastplanner_ws/devel/share/FastPlannerOctomap/cmake/FastPlannerOctomapConfig.cmake

@@ -1,0 +1,28 @@
+libusb currently requires the following tools and libraries from the system package manager:
+    autoreconf
+    libudev
+
+These can be installed on Ubuntu systems via apt-get install autoreconf libudev-dev
+-- Using cached libusb-libusb-4239bc3a50014b8e6a5a2a59df1fff3b7469543b.tar.gz.
+-- Cleaning sources at /home/drone/Documents/vcpkg/buildtrees/libusb/src/3b7469543b-a464ae495e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /home/drone/Documents/vcpkg/downloads/libusb-libusb-4239bc3a50014b8e6a5a2a59df1fff3b7469543b.tar.gz
+-- Using source at /home/drone/Documents/vcpkg/buildtrees/libusb/src/3b7469543b-a464ae495e.clean
+-- Getting CMake variables for x64-linux-dbg
+-- Getting CMake variables for x64-linux-rel
+-- Generating configure for x64-linux
+-- Finished generating configure for x64-linux
+-- Configuring x64-linux-dbg
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:128 (message):
+    Command failed: /bin/bash -c "V=1 ./../src/3b7469543b-a464ae495e.clean/configure  \"--disable-silent-rules\" \"--verbose\" \"--disable-shared\" \"--enable-static\" \"--prefix=/home/drone/Documents/vcpkg/installed/x64-linux/debug\" \"--bindir=\\${prefix}/../tools/libusb/debug/bin\" \"--sbindir=\\${prefix}/../tools/libusb/debug/sbin\" \"--libdir=\\${prefix}/lib\" \"--includedir=\\${prefix}/../include\" \"--datarootdir=\\${prefix}/share/libusb\""
+    Working Directory: /home/drone/Documents/vcpkg/buildtrees/libusb/x64-linux-dbg
+    Error code: 1
+    See logs for more information:
+      /home/drone/Documents/vcpkg/buildtrees/libusb/config-x64-linux-dbg-out.log
+      /home/drone/Documents/vcpkg/buildtrees/libusb/config-x64-linux-dbg-err.log
+
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_configure_make.cmake:811 (vcpkg_execute_required_process)
+  ports/libusb/portfile.cmake:61 (vcpkg_configure_make)
+  scripts/ports.cmake:146 (include)
+
+

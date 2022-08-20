@@ -1,0 +1,8 @@
+prefix=/home/drone/Documents/catkin_drone/devel/.private/FastPlannerOctomap
+
+Name: FastPlannerOctomap
+Description: Description of FastPlannerOctomap
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

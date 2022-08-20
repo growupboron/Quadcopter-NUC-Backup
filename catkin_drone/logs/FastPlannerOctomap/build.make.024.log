@@ -1,0 +1,49 @@
+[ 14%] Built target queryPt
+[ 28%] Built target pubCamPose
+[ 42%] Built target pcNoise
+[ 57%] Built target Controller
+[ 64%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/noYawPlanner[0m
+[ 71%] [32m[1mLinking CXX executable /home/drone/Documents/catkin_drone/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/Planner[0m
+CMakeFiles/Planner.dir/src/Planner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::DynamicEDTOctomapBase(float, octomap::OcTree*, octomath::Vector3, octomath::Vector3, bool)':
+Planner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEEC2EfPS1_N8octomath7Vector3ES5_b[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEEC5EfPS1_N8octomath7Vector3ES5_b]+0xc0): undefined reference to `DynamicEDT3D::DynamicEDT3D(int)'
+Planner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEEC2EfPS1_N8octomath7Vector3ES5_b[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEEC5EfPS1_N8octomath7Vector3ES5_b]+0x1dc): undefined reference to `DynamicEDT3D::~DynamicEDT3D()'
+CMakeFiles/Planner.dir/src/Planner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::~DynamicEDTOctomapBase()':
+Planner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEED2Ev[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEED5Ev]+0x22): undefined reference to `DynamicEDT3D::~DynamicEDT3D()'
+CMakeFiles/Planner.dir/src/Planner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::update(bool)':
+Planner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE6updateEb[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE6updateEb]+0x2a1): undefined reference to `DynamicEDT3D::update(bool)'
+CMakeFiles/Planner.dir/src/Planner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::initializeOcTree(octomath::Vector3, octomath::Vector3)':
+Planner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE16initializeOcTreeEN8octomath7Vector3ES4_[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE16initializeOcTreeEN8octomath7Vector3ES4_]+0x257): undefined reference to `DynamicEDT3D::initializeEmpty(int, int, int, bool)'
+CMakeFiles/Planner.dir/src/Planner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::updateMaxDepthLeaf(octomap::OcTreeKey&, bool)':
+Planner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE18updateMaxDepthLeafERNS0_9OcTreeKeyEb[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE18updateMaxDepthLeafERNS0_9OcTreeKeyEb]+0xa1): undefined reference to `DynamicEDT3D::setObstacle(int, int, int)'
+Planner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE18updateMaxDepthLeafERNS0_9OcTreeKeyEb[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE18updateMaxDepthLeafERNS0_9OcTreeKeyEb]+0x127): undefined reference to `DynamicEDT3D::removeObstacle(int, int, int)'
+CMakeFiles/Planner.dir/src/Planner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::insertMaxDepthLeafAtInitialize(octomap::OcTreeKey)':
+Planner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE30insertMaxDepthLeafAtInitializeENS0_9OcTreeKeyE[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE30insertMaxDepthLeafAtInitializeENS0_9OcTreeKeyE]+0x335): undefined reference to `DynamicEDT3D::setObstacle(int, int, int)'
+CMakeFiles/Planner.dir/src/Planner.cpp.o:(.data.rel.ro._ZTI21DynamicEDTOctomapBaseIN7octomap6OcTreeEE[_ZTI21DynamicEDTOctomapBaseIN7octomap6OcTreeEE]+0x18): undefined reference to `typeinfo for DynamicEDT3D'
+collect2: error: ld returned 1 exit status
+CMakeFiles/Planner.dir/build.make:345: recipe for target '/home/drone/Documents/catkin_drone/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/Planner' failed
+make[2]: *** [/home/drone/Documents/catkin_drone/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/Planner] Error 1
+CMakeFiles/Makefile2:3324: recipe for target 'CMakeFiles/Planner.dir/all' failed
+make[1]: *** [CMakeFiles/Planner.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::DynamicEDTOctomapBase(float, octomap::OcTree*, octomath::Vector3, octomath::Vector3, bool)':
+noYawPlanner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEEC2EfPS1_N8octomath7Vector3ES5_b[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEEC5EfPS1_N8octomath7Vector3ES5_b]+0xc0): undefined reference to `DynamicEDT3D::DynamicEDT3D(int)'
+noYawPlanner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEEC2EfPS1_N8octomath7Vector3ES5_b[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEEC5EfPS1_N8octomath7Vector3ES5_b]+0x1dc): undefined reference to `DynamicEDT3D::~DynamicEDT3D()'
+CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::~DynamicEDTOctomapBase()':
+noYawPlanner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEED2Ev[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEED5Ev]+0x22): undefined reference to `DynamicEDT3D::~DynamicEDT3D()'
+CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::update(bool)':
+noYawPlanner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE6updateEb[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE6updateEb]+0x2a1): undefined reference to `DynamicEDT3D::update(bool)'
+CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::initializeOcTree(octomath::Vector3, octomath::Vector3)':
+noYawPlanner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE16initializeOcTreeEN8octomath7Vector3ES4_[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE16initializeOcTreeEN8octomath7Vector3ES4_]+0x257): undefined reference to `DynamicEDT3D::initializeEmpty(int, int, int, bool)'
+CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::updateMaxDepthLeaf(octomap::OcTreeKey&, bool)':
+noYawPlanner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE18updateMaxDepthLeafERNS0_9OcTreeKeyEb[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE18updateMaxDepthLeafERNS0_9OcTreeKeyEb]+0xa1): undefined reference to `DynamicEDT3D::setObstacle(int, int, int)'
+noYawPlanner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE18updateMaxDepthLeafERNS0_9OcTreeKeyEb[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE18updateMaxDepthLeafERNS0_9OcTreeKeyEb]+0x127): undefined reference to `DynamicEDT3D::removeObstacle(int, int, int)'
+CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o: In function `DynamicEDTOctomapBase<octomap::OcTree>::insertMaxDepthLeafAtInitialize(octomap::OcTreeKey)':
+noYawPlanner.cpp:(.text._ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE30insertMaxDepthLeafAtInitializeENS0_9OcTreeKeyE[_ZN21DynamicEDTOctomapBaseIN7octomap6OcTreeEE30insertMaxDepthLeafAtInitializeENS0_9OcTreeKeyE]+0x335): undefined reference to `DynamicEDT3D::setObstacle(int, int, int)'
+CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o:(.data.rel.ro._ZTI21DynamicEDTOctomapBaseIN7octomap6OcTreeEE[_ZTI21DynamicEDTOctomapBaseIN7octomap6OcTreeEE]+0x18): undefined reference to `typeinfo for DynamicEDT3D'
+collect2: error: ld returned 1 exit status
+CMakeFiles/noYawPlanner.dir/build.make:345: recipe for target '/home/drone/Documents/catkin_drone/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/noYawPlanner' failed
+make[2]: *** [/home/drone/Documents/catkin_drone/devel/.private/FastPlannerOctomap/lib/FastPlannerOctomap/noYawPlanner] Error 1
+CMakeFiles/Makefile2:1335: recipe for target 'CMakeFiles/noYawPlanner.dir/all' failed
+make[1]: *** [CMakeFiles/noYawPlanner.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,6 @@
+devel_space: /home/drone/Documents/catkin_drone/devel
+install: false
+install_space: /home/drone/Documents/catkin_drone/install
+profile: default
+source_space: /home/drone/Documents/catkin_drone/src
+workspace: /home/drone/Documents/catkin_drone

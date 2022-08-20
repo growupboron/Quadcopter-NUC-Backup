@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/drone/Documents/ewok_ws/devel/.private/ewok_ring_buffer/setup.sh

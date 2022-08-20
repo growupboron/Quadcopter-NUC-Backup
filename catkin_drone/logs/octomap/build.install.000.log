@@ -1,0 +1,94 @@
+[  5%] Built target octomath-static
+[ 10%] Built target octomath
+[ 24%] Built target octomap
+[ 27%] Built target log2graph
+[ 29%] Built target bt2vrml
+[ 32%] Built target edit_octree
+[ 35%] Built target binvox2bt
+[ 48%] Built target octomap-static
+[ 51%] Built target convert_octree
+[ 54%] Built target normals_example
+[ 56%] Built target eval_octree_accuracy
+[ 59%] Built target compare_octrees
+[ 62%] Built target intersection_example
+[ 64%] Built target octree2pointcloud
+[ 67%] Built target graph2tree
+[ 70%] Built target simple_example
+[ 72%] Built target test_scans
+[ 75%] Built target test_raycasting
+[ 78%] Built target test_changedkeys
+[ 81%] Built target test_iterators
+[ 83%] Built target test_color_tree
+[ 86%] Built target color_tree_histogram
+[ 89%] Built target unit_tests
+[ 91%] Built target test_mapcollection
+[ 94%] Built target test_io
+[ 97%] Built target test_pruning
+[100%] Built target test_bbx
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/AbstractOcTree.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/AbstractOccupancyOcTree.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/ColorOcTree.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/CountingOcTree.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/MCTables.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/MapCollection.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/MapNode.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTree.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeBase.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeBaseImpl.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeDataNode.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeKey.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeNode.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeStamped.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OccupancyOcTreeBase.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/Pointcloud.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/ScanGraph.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap_deprecated.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap_timing.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap_types.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/octomap_utils.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/MapCollection.hxx
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/MapNode.hxx
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeBaseImpl.hxx
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeDataNode.hxx
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OcTreeIterator.hxx
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/OccupancyOcTreeBase.hxx
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/math/Pose6D.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/math/Quaternion.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/math/Utils.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/include/octomap/math/Vector3.h
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/octomap/package.xml
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/ament_index/resource_index/packages/octomap
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/octomap/octomap-config.cmake
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/octomap/octomap-config-version.cmake
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/pkgconfig/octomap.pc
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/liboctomath.so.1.9.7
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/liboctomath.so.1.9
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/liboctomath.so
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/lib/liboctomath.so.1.9.7" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/liboctomath.a
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/liboctomap.so.1.9.7
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/liboctomap.so.1.9
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/liboctomap.so
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/lib/liboctomap.so.1.9.7" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/lib/liboctomap.a
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/octomap/octomap-targets.cmake
+-- Installing: /home/drone/Documents/catkin_drone/devel/share/octomap/octomap-targets-release.cmake
+-- Installing: /home/drone/Documents/catkin_drone/devel/bin/graph2tree
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/bin/graph2tree" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/bin/log2graph
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/bin/log2graph" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/bin/binvox2bt
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/bin/binvox2bt" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/bin/bt2vrml
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/bin/bt2vrml" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/bin/edit_octree
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/bin/edit_octree" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/bin/convert_octree
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/bin/convert_octree" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/bin/eval_octree_accuracy
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/bin/eval_octree_accuracy" to "/home/drone/Documents/catkin_drone/devel/lib"
+-- Installing: /home/drone/Documents/catkin_drone/devel/bin/compare_octrees
+-- Set runtime path of "/home/drone/Documents/catkin_drone/devel/bin/compare_octrees" to "/home/drone/Documents/catkin_drone/devel/lib"

@@ -1,0 +1,37 @@
+In file included from [01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/src/noYawPlanner.cpp:13:0[m[K:
+[01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/include/FastPlannerOctomap/utils.h:20:9:[m[K [01;31m[Kfatal error: [m[KdynamicEDT3D/dynamicEDTOctomap.h: No such file or directory
+ #include[01;31m[K<dynamicEDT3D/dynamicEDTOctomap.h>[m[K
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/noYawPlanner.dir/src/noYawPlanner.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/src/kinodynamic_astar.cpp:28:0[m[K:
+[01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/include/FastPlannerOctomap/kinodynamic_astar.h:17:9:[m[K [01;31m[Kfatal error: [m[KdynamicEDT3D/dynamicEDTOctomap.h: No such file or directory
+ #include[01;31m[K<dynamicEDT3D/dynamicEDTOctomap.h>[m[K
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Planner.dir/src/kinodynamic_astar.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/src/Controller.cpp:4:0[m[K:
+[01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/include/FastPlannerOctomap/utils.h:20:9:[m[K [01;31m[Kfatal error: [m[KdynamicEDT3D/dynamicEDTOctomap.h: No such file or directory
+ #include[01;31m[K<dynamicEDT3D/dynamicEDTOctomap.h>[m[K
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Controller.dir/src/Controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Controller.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/src/Planner.cpp:12:0[m[K:
+[01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/include/FastPlannerOctomap/utils.h:20:9:[m[K [01;31m[Kfatal error: [m[KdynamicEDT3D/dynamicEDTOctomap.h: No such file or directory
+ #include[01;31m[K<dynamicEDT3D/dynamicEDTOctomap.h>[m[K
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Planner.dir/src/Planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Planner.dir/all] Error 2
+In file included from [01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/src/kinodynamic_astar.cpp:28:0[m[K:
+[01m[K/home/drone/Documents/catkin_drone/src/FastPlannerOctomap/include/FastPlannerOctomap/kinodynamic_astar.h:17:9:[m[K [01;31m[Kfatal error: [m[KdynamicEDT3D/dynamicEDTOctomap.h: No such file or directory
+ #include[01;31m[K<dynamicEDT3D/dynamicEDTOctomap.h>[m[K
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/noYawPlanner.dir/src/kinodynamic_astar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/noYawPlanner.dir/all] Error 2
+make: *** [all] Error 2

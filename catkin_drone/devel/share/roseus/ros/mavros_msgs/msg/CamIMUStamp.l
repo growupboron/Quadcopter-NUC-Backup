@@ -1,0 +1,1 @@
+/home/drone/Documents/catkin_drone/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/CamIMUStamp.l

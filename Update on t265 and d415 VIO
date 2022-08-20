@@ -1,0 +1,18 @@
+Auterion package interfaces between t265 and px4
+
+to launch this, follow the commands: 
+roslaunch px4_realsense_bridge bridge_px4.launch - in catkin_ws
+roslaunch Fastplanner MappingDrone.launch - in catkin_fastplanner
+
+then open rviz
+
+In bridge_px4.launch:
+It launches mavros px4.launch - binary installed in our pc/ edit launch file if source installed
+then it also launches bridge.launch - contains necessary tf and launches t265 and d415 cameras
+
+In MappingDrone.launch:
+it contains pubcampose - maintains dynamic tf between map and base_link
+also downsamples using pcl manager
+launches octomap server
+and launches rviz - octomap, camera pointcloud, tf
+
